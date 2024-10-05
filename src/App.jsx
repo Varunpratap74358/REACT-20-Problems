@@ -13,6 +13,13 @@ import P10 from './componantes/P10'
 import P11 from './componantes/P11'
 import P12 from './componantes/P12'
 import P13 from './componantes/P13'
+import P14 from './componantes/P14'
+import P15 from './componantes/P15'
+import P16 from './componantes/P16'
+import P17 from './componantes/P17'
+import P18 from './componantes/P18'
+import P19 from './componantes/P19'
+import { CartProvider } from './pages/CartContext'
 
 const App = () => {
   return (
@@ -37,6 +44,15 @@ const App = () => {
       {/* <P11 /> */}
       {/* <P12 /> */}
       {/* <P13 /> */}
+      {/* <P14 /> */}
+      {/* <P15 /> */}
+      {/* <P16 /> */}
+      {/* <P17 /> */}
+      {/* <P18 /> */}
+      {/* 19 add cart items */}
+      {/* <CartProvider>
+        <P19 />
+      </CartProvider> */}
       
     </div>
   )
