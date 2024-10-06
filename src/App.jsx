@@ -20,6 +20,9 @@ import P17 from './componantes/P17'
 import P18 from './componantes/P18'
 import P19 from './componantes/P19'
 import { CartProvider } from './pages/CartContext'
+import P20 from './componantes/P20'
+import P21 from './componantes/P21'
+import P22 from './componantes/P22'
 
 const App = () => {
   return (
@@ -53,7 +56,9 @@ const App = () => {
       {/* <CartProvider>
         <P19 />
       </CartProvider> */}
-      
+      {/* <P20 /> */}
+      {/* <P21 /> */}
+      <P22 />
     </div>
   )
 }
